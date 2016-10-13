@@ -1,2 +1,10 @@
-My company name is Aetna. We have about 20 location in USA. IN the company we have over 5000 employee. 
-In my company we have Tablet app for permature babies to update information about babies. 
+My company name is Aetna, it is a insurance company.  
+We have about 15 locations in USA.  
+In the company we have about 500 employees. 
+ We sell insurance to the premature babies parents.  
+We have Tablet with our company’s app for premature babies 
+parents to update information about babies.  When parent upload
+information about baby in the app we get those information on our database.
+
+To purchase insurance.
+Clients have to call us at the customer service or directly come to one of our location.  Then they can talk to our representative about the insurance any information they need about the insurance. Then they can sign up for insurance, we have one month free trail for our new customers. If they like our insurance they can but it from next month if not they have to let us know five days before the trial month ends, this way we don’t charge them for the second month.    
