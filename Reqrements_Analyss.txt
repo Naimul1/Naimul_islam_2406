@@ -1,0 +1,26 @@
+21. Describe between two and four functional requirements that will fulfill the needs of clients.
+	- Application should be able to create a new account, update an account, delete account.
+	- Our application will send them a email notification when the clients sign up for our insurance so this way we and as well as they have prove.   
+	- Clients can be able to access our application when ever they need to update information about babies on our application. 
+	- Our suppliers (nurse) can access our database anytime they want to in order for them to see what kind of information parents updated about baby, so nurse can guide they with help. 
+
+22. Describe between two and four functional requirements that will fulfill the needs of suppliers.
+	- Functional requirements specifies a function that a system must be able to documented in various ways. The most common ones are written descriptions in documents, and use cases.
+	- To be able to see how many times they were able to get help from our company. 
+	- work on things to make it better for out customer to use our application. 
+	- We will receive email if customer face any kind of issues.   
+
+
+23. Describe between two and four functional requirements that will help someone administer the proposed information system.
+	- Functional requirement will contain a unique name and number, a brief summary. This information will using to help the reader understand why the requirement is needed, and to track the requirement through the development of the system.
+	- Functional requirements is what a system is supposed to accomplish. It may be
+		Calculations
+		Technical details
+		Data manipulation
+		Data processing
+		Other specific functionality
+	- Functional requirement to keep back up about customer info. 
+
+24. Describe between two and four functional requirements that will help analyze the quality of the company’s operations and inform strategic decisions.
+	- Creating report about all the transaction that has happened everyday day, every week, every month, and every year. 
+	- Having archive information where most companies transaction happens and date and time for companies beneficial. 
