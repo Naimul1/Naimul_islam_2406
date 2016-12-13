@@ -1,0 +1,93 @@
+1. What's the company's name?
+2. How many locations do they have?
+3. How many employees comprise the entire organization?
+4. Provide the logic you used to estimate the total number of employees.
+5. What do they sell or how do they generate revenue?
+6. Give an estimate of their gross annual revenue.
+7. Every company has some notion of a transaction, i.e. some set of operations that constitute the accomplishment of an objective or task in a software system. Examples of such transactions that drive a company's business operations are the sale of a retail item, an event ticket sale, a trouble ticket for technical support, a service of some kind like a trip by taxi or a lesson, a book loan, etc. This notion of transaction will permeate your design project, so clarify how it applies to your company. What are the information system
+transactions that drive your company's operations?
+
+8. How many of each type of transaction occurs per day?
+9. Provide the logic behind your estimate of the number of transactions.
+10. What is the throughput of your system in bytes per second?
+11. Provide the logic behind your estimate of throughput.
+12. A client is someone who seeks your company's services. You are in business to serve your clients. Identify
+who the clients are of your company's business?
+13. A supplier is a person or organization that your company relies on to do business. Who are your company's suppliers?
+
+
+1. My company name is Aetna, it is a insurance company.  
+
+2. We have about 10 locations in USA.  
+
+3. In the company we have about 60 employees.
+ 
+	1. 1 Project manager 
+	2. 15 QA testers 
+	3. 5 System admins 
+	4. 8 DBA
+	6. 9 Network engineers
+	7. 5 Scrum Master
+	8. 4 Developer
+	9. 4 Product Owner
+	10. 9 Field Engineers
+ 
+4. We sell insurance to the premature babies parents.  
+
+5. We have Tablet with our companies app for premature babies 
+parents to update information about babies.  When parent upload
+information about baby in the app we get those information on 
+our database. Then we send nurse to help the baby at clients house.  
+
+6. Our insurance cost $60 per month, we are aiming 
+to sale 10 insurance everyday at every locations, each location 
+we sale 3,650 insurance every location per year, 
+entire 10 location would sale 36500 insurance per year.  
+Per insurance our profit would be 30%,  
+We are making $18  per insurance policy.  Our revenue would be $657,000 
+from all the locations.  
+
+7. To purchase insurance.
+Clients have to call us at the customer service or directly 
+come to one of our 
+location.  Then they can talk to our 
+representative about the insurance any 
+information they need about the insurance. 
+Then they can sign up for insurance, 
+we have one month free trail for our new customers. 
+If they like our insurance 
+they can but it from next month if not they have 
+to let us know five days before 
+the trial month ends, this way we don’t charge 
+them for the second month.    
+
+
+
+*********************************************************************************
+
+
+
+8. We have 10 locations as i mention earlier, we will have 10 credit card transaction at each location per day, we will have 100 transaction in all location per day.
+  
+9. We established that we will have 10 transactions per location, per day every 10 location will have 100 credit card transactions per day, yearly credit card  transaction would be 36,500, this is where our yearly revenue will come from. 
+
+10. Assume its TCP / UDP 
+
+
+	2 TRANSACTIONS Per SECOND  
+	2 MESSAGES  PER TRANSACTION  
+	EACH MESSAGE  Ack = 20 bytes , order = 200 bytes
+	user = 5000 per second
+	
+	Traffic = 2* (20+200 bytes) * 5,000 user per second  = 220000 = 2.2 * 10^5 BPS
+
+
+12. Anyone can be our client who ever purchase our insurance, more specifically we help premature babies. Our main clients are Premature babies.
+******************************************************************************
+
+
+
+13. My insurance companies supplier would be samsung galaxy tablet will provide us all the info in our website when premature babies parents fill up the info on our application. 
+Also our clients will be the nurses, they will provide help to our customers if they need any help with anything.  
+
+
