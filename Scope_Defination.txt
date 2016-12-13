@@ -1,40 +1,80 @@
-Scope Definition (FAST Phase 1)                                                                
+Scope Definition (FAST Phase 1)  
+                                                              
+
 
 14. What information system is being proposed to be designed? 
-	Aetna will use Enterprise Data Warehouse (EDW) information system.
+
+  Aetna will use Enterprise Data Warehouse (EDW) information system. In computing, a data warehouse also known as an enterprise data warehouse (EDW), is a system used for reporting and data analysis, and is considered a core component of business intelligence.
+
 
 15. Describe why the company needs it and why the company would be better off after it is in place.
+  The data your business generates and captures is among the one of the most important assets available to yourself and your and employees. Unfortunately, the amount of data available is growing exponentially and it can quickly overwhelm many positions. One solution that allows businesses to better manage data is the data warehouse.
+  The data needed to provide reports, dashboards,
+analytic applications and ad hoc queries all exists
+within the set of production applications that
+support your organization. 
 
 16. Provide an estimate of how long it will take to design, implement, and install it. 
+
 1) Analysis of Data and User needs for data				time 1-2 weeks
+
 
 2) DW Design - Determining the data for the fact and dimension tables,  3-4 hours 
 
+
 3) ETL design and load process design For one source 			2 weeks
+
 
 4) Data Scrubbing 							2-3 weeks
 
+
 5) Table and structure design and testing				6 - 8 hours 
+
 
 6) Design of testing methodology and strategy				1 weeks 
 
+
 7) Testing of ETL process						6 hours 
+
 
 8) Test load of all data into testing environment			3 weeks
 
+
 9) Review of testing process, modifications to ETL			2 days 
+
 
 10) Retest loading process				2 days (Depending on amount of data and RDBMS being used)
 
+
 11) Creation of load tracking and reporting routines			3 days
+
 
 12) Final testing							1 week
 
+
 13) Load of data into production system					1 week
+
 
 14) Review of production data (Including testing of data from user standpoint)	2 weeks
 
 
+
+
 17. Provide an estimate of how much will the system design, implementation, and installation cost? 
 
+  For a typical mid-sized company, the total software and services cost will 
+range between $150,000 and $750,000. Hardware and infrastructure costs are usually 
+addressed separately, and typically these estimates assume an on-premise implementation 
+rather than a hosted or subscription-based solution.
+
+
 18. Provide an estimate of how many people will be needed to carry out everything?
+we would need 21 peoples in the team to cary out everything. 
+	- Design	6
+	- Setup 	3 
+	- Develop	4 
+	- Training	3 
+	- Configuration 2
+	- Deploy	3
+ 
+
