@@ -1,0 +1,15 @@
+19. Envision the way the company does business now, i.e. before this system is in place. With respect to this preexisting situation, list at least five problems with the 
+current state of affairs that would be solved or improved by the proposed system.
+	- It will be vary easy to communicate with the parents about babies informations. 
+	- They don’t need to call to make appointment, they can just use our app on tablet 	  to make appointment. 
+	- Our nurse will see on the app that clients requested for nurse, if the parents 	  can come to office then they will, if not then, nurse will go to babies house 
+	  to see the baby and will help them with everything.
+	- We will have real time information about baby from the clients through our app 	  that we provided with our device (tablet).    
+
+
+20. For each problem, provide a system improvement objective that would be accomplished and that would be measurable in some objective way. Refer to our text for discussion of what good examples of system improvement objectives are.
+
+	- We will have Cluster server lever solution 
+Closter is multiple server work as a single server or buddy. Applications will be connect to virtual cluster name then virtual cluster is connected to servers.   
+	- Clustering can be best described as a technology that automatically allows one physical server to take over the tasks and responsibilities of another physical server that has failed. The obvious goal behind this, given that all computer hardware and software will eventually fail, it is to ensure that users running mission-critical applications will have little or no downtime when such a failure occurs.
+	- When we have high traffic in server the user will not face any latency if we have this technology in our company. 
