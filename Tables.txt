@@ -1,0 +1,40 @@
+Create Table PATIENT (
+Patient_ID CHAR(5) PRIMARY KEY,
+F_Name VARCHAR(15),
+L_Name VARCHAR(15),
+Address VARCHAR(20),
+PhoneNumber CHAR(10),
+Gender VARCHAR(5));
+
+Create Table Appointment (
+Ap_ID CHAR(5) PRIMARY KEY,
+Ap_Description VARCHAR(25),
+AP_Date DATE,
+Ap_Time DATE),
+CONSTRAINT FK_PATIENT FOREIGN KEY (Patient_ID) REFERENCE PATIENT (Patient_ID));
+
+Create Table Insurance ( 
+InsuranceID CHAR(5) PRIMARY KEY, 
+Insu_Name VARCHAR(12),
+Insu_Amount VARCHAR(15),
+Insurance_Type(20),
+CONSTRAINT FK_Appointment FOREIGN KEY (Ap_ID) REFERENCE Appointment (Ap_ID));  
+
+Create Table Carrier (
+Carrier_ID CHAR(5) PRIMARY KEY,
+Carrier_Name VARCHAR(10),
+Carrier_Address VARCHAR(20),
+Phone CHAR(10),
+CONSTRAINT FK_Insurance FOREIGN KEY (InsuranceID) REFERENCE Insurance (Insurance_ID));
+
+
+Create Table Employee (
+Emp_ID CHAR(5) PRIMARY KEY,
+Emp_F_Name VARCHAR(10),
+Emp_L_Name VARCHAR(10),
+Emp_Add VARCHAR(20),
+Emp_Phon CHAR(10),
+Emp_State CHAR(2),
+CONSTRAINT FK_Appointment FOREIGN KEY (Ap_ID) REFERENCE Appointment (Ap_ID));  
+
+Commit;
